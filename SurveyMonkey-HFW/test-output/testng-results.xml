@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30109" started-at="2018-09-16T20:01:42Z" finished-at="2018-09-16T20:02:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30109" started-at="2018-09-16T20:01:42Z" finished-at="2018-09-16T20:02:12Z">
+      <class name="testCases.VerifyLoginPageWithReports1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyLoginPageWithReports1@16905e]" name="setUp" is-config="true" duration-ms="9838" started-at="2018-09-16T16:01:42Z" finished-at="2018-09-16T16:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkLandingPage()[pri:0, instance:testCases.VerifyLoginPageWithReports1@16905e]" name="checkLandingPage" duration-ms="10605" started-at="2018-09-16T16:01:52Z" finished-at="2018-09-16T16:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.VerifyLoginPageWithReports1@16905e]" name="tearDown" is-config="true" duration-ms="1593" started-at="2018-09-16T16:02:02Z" finished-at="2018-09-16T16:02:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLandingPage status=SUCCESS method=VerifyLoginPageWithReports1.checkLandingPage()[pri:0, instance:testCases.VerifyLoginPageWithReports1@16905e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyLoginPageWithReports1 -->
+      <class name="testCases.VerifyLandingPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyLandingPage@1aeed2f]" name="setUp" is-config="true" duration-ms="7274" started-at="2018-09-16T16:02:04Z" finished-at="2018-09-16T16:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkLandingPage()[pri:0, instance:testCases.VerifyLandingPage@1aeed2f]" name="checkLandingPage" duration-ms="9" started-at="2018-09-16T16:02:11Z" finished-at="2018-09-16T16:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.VerifyLandingPage@1aeed2f]" name="tearDown" is-config="true" duration-ms="773" started-at="2018-09-16T16:02:11Z" finished-at="2018-09-16T16:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyLandingPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
